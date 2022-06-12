@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cute Font', cursive
+
+}
+body
+{
+    background: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.body-main
+{
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+.nav-items
+{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+.nav-items a
+{
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 35px;
+    color: #3498db;
+    padding: 3px 15px;
+    border-radius: 5px;
+}
+.nav-items a:hover
+{
+    color: #27ae60;
+    transition: 0.5s;
+    background-color: rgba(0,0,255,0.4);
+}
+.nav-items .active
+{
+    color: #27ae60;
+    background-color: rgba(0,0,255,0.4);
+}
+h1
+{
+    text-align: center;
+    color: #3498db;
+    font-size: 80px;
+    margin-top: 100px;
+    
+}
+.login-items
+{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    text-align: center;
+}
+input
+{
+    width: 370px;
+    height: 55px;
+    margin-top: 12px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #3498db;
+    background: transparent;
+    color: #3498db;
+    font-size: 32px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding-left: 12px;
+}
+input::placeholder
+{
+    color: #3498db;
+    padding-left: 12px;
+    font-size: 32px;
+}
+input[type="submit"]
+{
+    width: 150px;
+    height: 50px;
+    border: 2px solid #3498db;
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    padding: 0 5px 0 5px;
+
+}
+input[type="submit"]:hover
+{
+    color: #ff4757;
+    transition: 0.5s;
+}
+
+p
+{
+    text-align: center;
+    color: #3498db;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+a
+{
+    color: #27ae60;
+}

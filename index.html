@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvice login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+<link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+   <div class="body-main">
+       <h1>Log In</h1>
+       <nav>
+           <div class="nav-items">
+               <a href="#">Home</a>
+               <a href="#">About</a>
+               <a href="#">Content</a>
+               <a href="#" class="active">LogIn</a>
+           </div>
+       </nav>
+    <div class="login-items">
+        <input type="text" name="name" id="fname" placeholder="Username" autocomplete="off" onclick="inputFunction()"><br>
+        <input type="text" name="password" id="password" placeholder="Password" autocomplete="off" onclick="inputTFunction()"><br>
+        <input type="submit" value="Submit" id="sumbit" onclick="submitSound()">
+        <p>Already have an account? <a href="#">Signup</a></p>
+    </div>
+
+
+    <audio id="music">
+        <source  src="input.wav" type="audio/wav"> 
+      </audio>
+      <audio id="musicT">
+        <source  src="input.wav" type="audio/wav"> 
+      </audio>
+      <audio id="submitMusic">
+        <source  src="submit.wav" type="audio/wav"> 
+      </audio>
+      
+   </div>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
